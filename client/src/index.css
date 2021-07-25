@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2px;
+}
+body{
+  background-color: rgb(39, 39, 39);
+  font-family: 'Poppins';
+}
+h2{
+  color: white;
+}
+input{
+  padding: 1rem 1rem;
+  margin: 2rem 0rem;
+  border: none;
+}
+button{
+  padding: 0.5rem 2rem;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  background-color: tomato;
+}
+button:hover{
+  background-color: rgb(255, 82, 51);
+}
+.App{
+  display: grid;
+  place-items: center;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  min-width: 20rem;
+  width: 20rem;
+}
+.chat{
+  display: flex;
+  flex-direction: column;
+  min-width: 360px;
+  width: 40rem;
+  margin-top: 1rem;
+}
+.infobar{
+  background-color: tomato;
+  color: white;
+  height: 3rem;
+  font-weight: bolder;
+  font-size: larger;
+  width: 100%;
+}
+.infobar button{
+  float: right;
+  background-color: rgb(255, 41, 4);
+}
+.infobar button:hover{
+  background-color: tomato;
+}
+.display{
+  background-color: #fefefe;
+  height: 70vh;
+  width: 100%;
+}
+.message{
+  background-color: #e6e6e688;
+  padding: .5rem 1rem;
+  margin: 1rem;
+  border-radius: 5%;
+}
+.message p{
+  font-size: smaller;
+  float: right;
+  color: gray;
+}
